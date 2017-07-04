@@ -2,12 +2,82 @@
   "contract_name": "Calculator",
   "abi": [
     {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "addToNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "divideByFromNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "subtractFromNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "multiplyWithNumber",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
       "inputs": [],
+      "name": "getResult",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "initial",
+          "type": "uint256"
+        }
+      ],
       "payable": false,
       "type": "constructor"
     }
   ],
-  "unlinked_binary": "0x6060604052346000575b5b5b60358060186000396000f30060606040525b60005600a165627a7a72305820d70d96ccf11af2fc6698613e18fa3abf250b5bee605e1e833779714196e017530029",
+  "unlinked_binary": "0x6060604052346100005760405160208061014383398101604052515b60008190555b505b610111806100326000396000f300606060405263ffffffff60e060020a60003504166306ccd2308114604a5780636693d7bc146059578063a9401603146068578063b4679b06146077578063de292789146086575b6000565b34600057605760043560a2565b005b34600057605760043560ae565b005b34600057605760043560c5565b005b34600057605760043560d2565b005b34600057609060de565b60408051918252519081900360200190f35b60008054820190555b50565b806000600082825481156000570490915550505b50565b6000805482900390555b50565b60008054820290555b50565b6000545b905600a165627a7a72305820c6b6d633aa49f2e549a6caed7c3a415ba94178659b25894390cf55d2ca3702ca0029",
   "networks": {
     "1499137645618": {
       "events": {},
@@ -17,5 +87,5 @@
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1499143565318
+  "updated_at": 1499150344020
 }

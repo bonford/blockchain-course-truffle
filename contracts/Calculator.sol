@@ -1,9 +1,10 @@
 pragma solidity ^0.4.4;
 
 contract Calculator {
-  uint result = 10;
-  function Calculator() {
+  uint result;
+  function Calculator(uint initial) {
     // constructor
+    result = initial;
   }
 
   function getResult() constant returns (uint) {
