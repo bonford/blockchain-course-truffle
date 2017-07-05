@@ -23,8 +23,16 @@ contract Calculator {
     result *= num;
 }
 
- function divideByFromNumber(uint num) {
-    result /= num;
+ function divideByNumber(uint num) {
+    result = result / num;
+}
+
+function double(){
+  result = 2 * result;
+}
+
+function half() {
+  result = result / 2;
 }
 
 }
